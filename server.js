@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 var prerender = require('./lib');
 
+// var server = prerender({
+//     chromeLocation: '/usr/bin/google-chrome-stable'
+// });
+
 var server = prerender();
 
 server.use(prerender.sendPrerenderHeader());
