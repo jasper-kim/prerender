@@ -1,6 +1,6 @@
 FROM node:10.11.0-alpine
 
-ENV CHROMIUM_VERSION 68.0.3440.75-r0
+ARG CHROMIUM_VERSION 68.0.3440.75-r0
 
 # Create app directory
 WORKDIR /usr/src/app
