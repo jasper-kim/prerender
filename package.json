@@ -1,12 +1,12 @@
 {
-  "author": "Prerender.io",
+  "author": "Jasper Kim",
   "name": "prerender",
   "description": "Service to prerender Javascript rendered pages for SEO",
-  "version": "5.6.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prerender/prerender"
+    "url": "git+https://github.com/jasper-kim/prerender.git"
   },
   "dependencies": {
     "body-parser": "~1.18.3",
@@ -14,7 +14,7 @@
     "compression": "~1.7.3",
     "express": "~4.16.3",
     "he": "~1.1.1",
-    "prerender-memory-cache": "github:jasper-kim/prerender-memory-cache#master",
+    "prerender-memory-cache-api": "^1.0.0",
     "valid-url": "~1.0.9"
   },
   "devDependencies": {
@@ -23,9 +23,18 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=6.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jasper-kim/prerender/issues"
+  },
+  "homepage": "https://github.com/jasper-kim/prerender#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

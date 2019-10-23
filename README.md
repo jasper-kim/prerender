@@ -1,3 +1,14 @@
+Status
+===========================
+
+This is a modification of Prerender.io. This is a fork of https://github.com/prerender/prerender, adding custom endpoints that work with [Prerender In-Memory Cache plugin](https://github.com/prerender/prerender-memory-cache).
+
+## New Endpoints:
+- /api/create
+- /api/edit
+- /api/delete
+
+
 Prerender
 ===========================
 
