@@ -12,6 +12,7 @@
     "body-parser": "~1.18.3",
     "chrome-remote-interface": "~0.25.7",
     "compression": "~1.7.3",
+    "cors": "^2.8.5",
     "express": "~4.16.3",
     "he": "~1.1.1",
     "prerender-memory-cache-api": "^1.0.0",
